@@ -12,7 +12,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node test.js",
     "start": "node spider.js"
   },
   "repository": {
