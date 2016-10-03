@@ -1,0 +1,28 @@
+{
+  "name": "lofter-spider",
+  "version": "0.0.2",
+  "description": "Image Spider",
+  "main": "spider.js",
+  "dependencies": {
+    "async": "^1.0.0",
+    "cheerio": "^0.19.0",
+    "redis": "^2.6.2",
+    "scarlet-task": "0.0.7",
+    "spidex": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js",
+    "start": "node spider.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/XhinLiang/lofter-spider.git"
+  },
+  "keywords": [
+    "spider",
+    "node",
+  ],
+  "author": "XhinLiang",
+  "license": "MIT",
+}
