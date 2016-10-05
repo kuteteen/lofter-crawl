@@ -19,10 +19,11 @@ app.listen(port, function() {
     });
 });
 
+// 两小时往队列里添加一次任务，亦即两小时更新一次
 setInterval(function() {
     scarlet.push({
         url: url,
         page: 1,
         queue: scarlet
     }, indexPage.get);
-}, 2 * 24 * 60 * 60 * 1000);
+}, 2 * 60 * 60 * 1000);
